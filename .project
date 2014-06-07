@@ -26,7 +26,7 @@
 		<link>
 			<name>.link_to_grails_plugins</name>
 			<type>2</type>
-			<location>/home/alicia/Documentos/eduweb/target/work/plugins</location>
+			<location>D:/Workspace/eduweb/target/work/plugins</location>
 		</link>
 	</linkedResources>
 </projectDescription>
