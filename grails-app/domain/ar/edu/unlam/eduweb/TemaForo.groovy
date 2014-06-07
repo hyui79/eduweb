@@ -1,13 +1,13 @@
 package ar.edu.unlam.eduweb
 
 class TemaForo {
+	static belongsTo = Curso
 	String titulo
 	String mensaje
 	Date fecha
 	Usuario autorTema
 	CategoriaTema categoriaForo
-	Curso temaCurso // a que curso pertenece
-	//static hasMany = [Comentario: Comentario]
+	static hasMany = [comentarios: Comentario]//si categoria ya tiene comentarios para que los necesita esta clase??
 	
     static constraints = {
     }
